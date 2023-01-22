@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as Popover from '@radix-ui/react-popover'
 import clsx from 'clsx'
 import { ProgressBar } from './ProgressBar'
@@ -37,5 +38,12 @@ export function HabitDay({completed, amount}: HabitDayProps) {
                 </Popover.Content>
             </Popover.Portal>
         </Popover.Root>
+=======
+
+
+export function HabitDay() {
+    return (
+        <div className="w-10 h-10 bg-zinc-900 border-2 border-zinc-800 rounded-lg"></div>
+>>>>>>> aac71ca68b318c165f3669ea47bc8a94bb958b55
     )
 }
